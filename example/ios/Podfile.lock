@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - icloud_documents_path (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - icloud_documents_path (from `.symlinks/plugins/icloud_documents_path/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  icloud_documents_path:
+    :path: ".symlinks/plugins/icloud_documents_path/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  icloud_documents_path: 11c858abe03d6900cacce4ef86267f527c89ab7d
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.8.4
