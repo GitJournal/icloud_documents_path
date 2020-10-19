@@ -11,9 +11,9 @@ public class SwiftICloudDocumentsPathPlugin: NSObject, FlutterPlugin {
   public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
     let driveURL = FileManager.default.url(forUbiquityContainerIdentifier: nil)?.appendingPathComponent("Documents")
     if let url = driveURL {
-      result(url.absoluteString)
+      result(url.path)
     } else {
-      result("iOS")
+      result("")
     }
   }
 }
